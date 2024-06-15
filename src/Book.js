@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Book = ({book}) =>{
-    const{id,author,title,price,img} = book
+    const{author,title,price,img} = book
     console.log("title");
     return(
        <div className='single-book' onClick={()=>window.alert(author)}>
